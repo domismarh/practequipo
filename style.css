@@ -24,7 +24,7 @@ a:hover {
 
 h1, h2, h3 {
   font-family: 'Amatic SC', cursive;
-  color: #FADBD8 ;
+  color: #fcfcfc ;
 }
 
 p, input, li {
@@ -42,7 +42,7 @@ h1 {
 h2 {
   font-size: 3rem;
   text-align: center;
-  color: #FADBD8;
+  color: #ffffff;
 }
 
 h3 {
