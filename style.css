@@ -5,10 +5,6 @@ html, body {
   padding: 0;
 }
 
-html {
-  font-size: 10px;
-  background: url(background.jpg);
-}
 
 body {
   width: 70%;
