@@ -29,7 +29,7 @@ h1, h2, h3 {
 
 p, input, li {
   font-family: 'Amatic SC', cursive;
-  color: rgb(241, 236, 236);
+  color: white;
   font-size: 20px;
 }
 
@@ -42,7 +42,7 @@ h1 {
 h2 {
   font-size: 3rem;
   text-align: center;
-  color: #ffffff;
+  color: white;
 }
 
 h3 {
