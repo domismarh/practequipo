@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+<title>Formulario</title>
+<link rel="stylesheet" href="estilos.css">  
+<link rel="stylesheet" href="form.css">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+<script>
+        function validar(){
+ var nombre, apellido, correo, contraseña;
+nombre = document.getElementById("nombre").value;
+apellido = document.getElementById("apellido").value;
+correo = document.getElementById("correo").value;
+contraseña = document.getElementById("contraseña").value;
+
+if(nombre === "" || apellido === "" || correo === "" || contraseña === ""){
+    alert("Debes llenar los espacios vacios");
+    return false;
+}
+}
+</script>
+</head>
+
+<body> 
+
+ <form action="" method="POST" onsubmit="return validar();">
+<h1>Envíale un mensaje</h1>
+<div>
+<label for="nombre"></label>
+<input class="controls" type="text" id="nombre" placeholder="Escriba su nombre">
+</div>
+
+<div>
+<label for="apellido"></label>
+<input class="controls" type="text" id="apellido" placeholder="Escriba su apellido">
+        </div>
+
+        <div>
+<label for="Correo"></label>
+<input class="controls" type="email" id="correo" placeholder="Escriba su correo">
+        </div>
+
+        <div>
+<label for="contraseña"></label>
+<input class="controls" type="password" id="contraseña" placeholder="Escriba su contraseña">
+        </div>
+
+        <div>
+            <label for="mensaje"></label>
+            <input class="controls" type="mensaje" id="mensaje" placeholder="Escriba su mensaje">
+                    </div
+
+
+        <div class="button"><center>
+                <button type="submit" value="validar" onClick="validar()">Enviar</button></center>
+        </div>
+        
+        <p>
+                <a class="link" href="index.html">Volver a la página inicial</a>
+        </p>
+        </form>
+</body>
+</html>
