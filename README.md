@@ -1,0 +1,2 @@
+# practequipo
+practica grupal
